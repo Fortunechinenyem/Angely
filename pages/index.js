@@ -37,7 +37,7 @@ export async function getServerSideProps() {
       description: "John needs urgent surgery to save his life. Please donate!",
       goalAmount: 500000,
       raisedAmount: 200000,
-      imageUrl: "/images/john.jpg",
+      // imageUrl: "/images/john.jpg",
     },
     {
       id: 2,
@@ -46,7 +46,16 @@ export async function getServerSideProps() {
         "Mary is battling cancer and needs financial support for her treatment.",
       goalAmount: 1000000,
       raisedAmount: 750000,
-      imageUrl: "/images/mary.jpg",
+      // imageUrl: "/images/mary.jpg",
+    },
+    {
+      id: 2,
+      title: "Support Nafisa’s Kidney Treatment",
+      description:
+        "Nafiza is Kidney Failure and needs financial support for her treatment.",
+      goalAmount: 1000000,
+      raisedAmount: 750000,
+      // imageUrl: "/images/nafisa.jpg",
     },
   ];
 
